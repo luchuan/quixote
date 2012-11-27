@@ -1,0 +1,14 @@
+/*
+Cascading style sheet for the Quixote documentation.
+Just overrides what I don't like about the standard docutils
+stylesheet.
+*/
+
+@import url(docutils.css);
+
+pre.literal-block, pre.doctest-block {
+  margin-left: 1em ;
+  margin-right: 1em ;
+  background-color: #f4f4f4 }
+
+tt { background-color: transparent }
